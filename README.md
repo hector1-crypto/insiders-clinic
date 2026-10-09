@@ -4,20 +4,20 @@ Propuesta de sitio web en español para Insiders Clinic, basada en su perfil pú
 
 ## Experiencia
 
-- Dirección visual minimalista inspirada en Apple, tonos marfil y salvia.
-- Escultura molecular WebGL con Three.js: arrastre, rotación y pausa.
-- Modelo arquitectónico 3D original: recepción, sala de espera, camilla, lámparas, plantas, estanterías; órbita, zoom, restablecimiento y ambiente día/noche.
-- Explorador de estética, longevidad y bienestar con navegación por teclado.
-- Selector de intereses que prepara un enlace de WhatsApp; ningún mensaje se envía automáticamente.
-- Diálogos accesibles, FAQ, navegación móvil y preferencia de movimiento reducido.
-- Imagen conceptual generada con IA integrada en el proyecto.
+- Cuatro páginas independientes: Healthcare, Insiders Core, Uniqueness y Longevity Journey.
+- Colorimetría plata, gris, azul petróleo y aqua; Journey transforma toda la página a vino y rojo suave.
+- Logo original suministrado por el usuario y fotografías/referencias de sus historias.
+- Home con planeta 3D y conexiones internacionales. Healthcare con membrana de sérum, Core con núcleos metálicos, Uniqueness con cinta continua y Journey con órbitas rojas. Cada destino tiene composición propia, respuesta al cursor, arrastre y pausa.
+- Healthcare integra aparatología, medicina estética, medicina funcional y regenerativa, y farmacia.
+- Etapas interactivas de Journey, contacto por WhatsApp y espacio conceptual 3D.
+- Navegación móvil, diálogos accesibles y respeto a movimiento reducido.
 
 ## Ejecución
 
-Sitio estático sin build. Servir la raíz del repositorio con cualquier servidor HTTP:
+Sitio estático sin build. Servir `dist/` con cualquier servidor HTTP:
 
 ```sh
-python3 -m http.server 4173 
+python3 -m http.server 4173 --directory dist
 ```
 
 Abrir http://localhost:4173. Los archivos Three.js se incluyen localmente; no se requiere npm para servir. Fuentes Google Fonts cuentan con tipografía alternativa local. WebGL es necesario para el modelo 3D; existe alternativa visual para el hero.
@@ -31,8 +31,8 @@ Los tratamientos mencionados proceden de publicaciones de Insiders; no se invent
 
 ## Imagen
 
-Activo: `assets/clinic-concept.png`. Generado con la herramienta integrada de imágenes. Prompt: imagen editorial fotorrealista de un corredor conceptual de clínica premium, arcos de yeso marfil, banco de piedra, lino taupe, olivo, luz natural, detalles champagne y arquitectura mexicana contemporánea; paleta crema, sin personas, texto ni logos. El prompt completo se conserva en `ASSETS.md`.
+Activo: `dist/assets/clinic-concept.png`. Generado con la herramienta integrada de imágenes. Prompt: imagen editorial fotorrealista de un corredor conceptual de clínica premium, arcos de yeso marfil, banco de piedra, lino taupe, olivo, luz natural, detalles champagne y arquitectura mexicana contemporánea; paleta crema, sin personas, texto ni logos. El prompt completo se conserva en `ASSETS.md`.
 
 ## Dependencias
 
-Three.js, licencia MIT en `assets/THREE-LICENSE.txt`. Los modelos se construyen por código en `app.js`. No se recopilan datos personales, no existe backend de reservas y no se confirma ninguna cita desde la web.
+Three.js, licencia MIT en `dist/assets/THREE-LICENSE.txt`. Los modelos se construyen por código en `dist/app.js`. No se recopilan datos personales, no existe backend de reservas y no se confirma ninguna cita desde la web.

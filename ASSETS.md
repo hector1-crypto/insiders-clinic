@@ -17,3 +17,7 @@ Modelos originales procedurales creados con Three.js en app.js. Escultura molecu
 Generada con image_gen integrado. Persona ficticia, sin relación con pacientes o personal real. Prompt final:
 
 > Use case: ads-marketing. Asset: editorial aesthetic and longevity clinic website image. Create an elegant realistic photographic diptych as one wide landscape image: close-up profile portrait of an anonymous adult woman with naturally textured glowing skin, eyes softly closed, calm expression, on the left; flowing pale ivory silk and a translucent glass sphere with soft sage reflections on the right. A refined quiet aesthetic like a premium Apple editorial campaign, warm creamy whites, muted sage, subtle film grain, natural daylight, intentional negative space, sophisticated photographic realism, no cosmetic bottles, no medical devices, no lettering, no logos. Conceptual campaign image, no real clinician or patient identity, no before/after comparison.
+
+## Revisión con referencias del usuario
+
+insiders-logo.png es el logo original proporcionado por Hector. assets/references/ incluye Healthcare, Insiders Core, Uniqueness, Longevity Journey y fotografía del equipo, suministrados como capturas de historias de Insiders. Se presentan con encuadre CSS para retirar la interfaz de Instagram sin modificar los archivos. La interpretación orgánica 3D es conceptual, no una representación clínica. Los antiguos renders generados se conservan como archivo y ya no aparecen en las páginas actuales. RoomEnvironment.js pertenece a Three.js y comparte su licencia MIT.
