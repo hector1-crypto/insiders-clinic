@@ -11,3 +11,9 @@ Prompt final:
 ## Modelos 3D
 
 Modelos originales procedurales creados con Three.js en app.js. Escultura molecular decorativa y arquitectura conceptual. No son modelos anatómicos ni representación de un espacio real.
+
+## wellness-concept.png
+
+Generada con image_gen integrado. Persona ficticia, sin relación con pacientes o personal real. Prompt final:
+
+> Use case: ads-marketing. Asset: editorial aesthetic and longevity clinic website image. Create an elegant realistic photographic diptych as one wide landscape image: close-up profile portrait of an anonymous adult woman with naturally textured glowing skin, eyes softly closed, calm expression, on the left; flowing pale ivory silk and a translucent glass sphere with soft sage reflections on the right. A refined quiet aesthetic like a premium Apple editorial campaign, warm creamy whites, muted sage, subtle film grain, natural daylight, intentional negative space, sophisticated photographic realism, no cosmetic bottles, no medical devices, no lettering, no logos. Conceptual campaign image, no real clinician or patient identity, no before/after comparison.
