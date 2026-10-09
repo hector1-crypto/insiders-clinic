@@ -14,10 +14,10 @@ Propuesta de sitio web en español para Insiders Clinic, basada en su perfil pú
 
 ## Ejecución
 
-Sitio estático sin build. Servir `dist/` con cualquier servidor HTTP:
+Sitio estático sin build. Servir la carpeta del repositorio con cualquier servidor HTTP:
 
 ```sh
-python3 -m http.server 4173 --directory dist
+python3 -m http.server 4173
 ```
 
 Abrir http://localhost:4173. Los archivos Three.js se incluyen localmente; no se requiere npm para servir. Fuentes Google Fonts cuentan con tipografía alternativa local. WebGL es necesario para el modelo 3D; existe alternativa visual para el hero.
@@ -29,10 +29,10 @@ Abrir http://localhost:4173. Los archivos Three.js se incluyen localmente; no se
 
 Los tratamientos mencionados proceden de publicaciones de Insiders; no se inventaron precios, credenciales, testimonios ni resultados clínicos. La dirección debe confirmarse al agendar. Las descripciones son editoriales y la disponibilidad actual de los programas debe confirmarse con la clínica. La imagen y el recorrido 3D no representan las instalaciones reales. Esta propuesta no se presenta como el sitio oficial de la clínica. No hay relación con Apple.
 
-## Imagen
+## Identidad e imágenes
 
-Activo: `dist/assets/clinic-concept.png`. Generado con la herramienta integrada de imágenes. Prompt: imagen editorial fotorrealista de un corredor conceptual de clínica premium, arcos de yeso marfil, banco de piedra, lino taupe, olivo, luz natural, detalles champagne y arquitectura mexicana contemporánea; paleta crema, sin personas, texto ni logos. El prompt completo se conserva en `ASSETS.md`.
+El logo original y las cinco referencias de historias fueron proporcionados por el usuario. Los encuadres se realizan mediante CSS. Las imágenes conceptuales generadas de la primera propuesta se conservan en assets como archivo y no se muestran en la versión actual. La procedencia se documenta en ASSETS.md.
 
 ## Dependencias
 
-Three.js, licencia MIT en `dist/assets/THREE-LICENSE.txt`. Los modelos se construyen por código en `dist/app.js`. No se recopilan datos personales, no existe backend de reservas y no se confirma ninguna cita desde la web.
+Three.js, licencia MIT en `assets/THREE-LICENSE.txt`. Los modelos se construyen por código en `app.js`. No se recopilan datos personales, no existe backend de reservas y no se confirma ninguna cita desde la web.
